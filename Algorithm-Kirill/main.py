@@ -12,11 +12,19 @@ TATAR_PATH = "Texts/dev_inputs.tsv"
 RUSSIAN_PATH = "Texts/dev_inputs_translated.tsv"
 
 with open(TATAR_PATH, encoding="utf-8") as f:
+
     tatar_lines = [line.strip().replace("\t", " ") for line in f if line.strip()][150:300]
     print(tatar_lines)
 
 with open(RUSSIAN_PATH, encoding="utf-8") as f:
     russian_lines = [line.strip() for line in f if line.strip()][150:300]
+
+    tatar_lines = [line.strip().replace("\t", " ") for line in f if line.strip()][300:450]
+    print(tatar_lines)
+
+with open(RUSSIAN_PATH, encoding="utf-8") as f:
+    russian_lines = [line.strip() for line in f if line.strip()][300:450]
+
 
 api_key = os.getenv("OPEN_ROUTER_API_KEY")
 if not api_key:
