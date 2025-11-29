@@ -2,7 +2,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"Коточкыч!\", \"агуланып кырыласыз\"]}"
+      "```json\n{\n  \"toxic_words\": [\"коточкыч\", \"агуланып кырыласыз\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -36,7 +36,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"бля\"]}"
+      "```json\n{\n  \"toxic_words\": [\"бля\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -70,7 +70,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутагын\", \"чтоли\", \"тыгып\"]}"
+      "```json\n{\n  \"toxic_words\": []\n}\n```"
     ],
     "1":[
       "refusal",
@@ -206,7 +206,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": []}"
+      "```json\n{\n  \"toxic_words\": []\n}\n```"
     ],
     "1":[
       "refusal",
@@ -308,7 +308,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"бук сала\", \"унитаз\"]\n}\n```"
+      "{\"toxic_words\": [\"блэт\", \"сала\", \"кутакбаш\"]}"
     ],
     "1":[
       "refusal",
@@ -342,7 +342,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"тварь\", \"поганный\", \"куеп\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"тварь\", \"поганный\", \"кутенне\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -444,7 +444,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"сука\"]\n}\n```"
+      "{\"toxic_words\": [\"сука\"]}"
     ],
     "1":[
       "refusal",
@@ -512,7 +512,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"чабата\", \"ачты\", \"ебни\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"чабата\", \"басу\", \"ебни\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -750,7 +750,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"пизнец\"]\n}\n```"
+      "{\"toxic_words\": [\"пизнец\"]}"
     ],
     "1":[
       "refusal",
@@ -852,7 +852,7 @@
   {
     "0":[
       "content",
-      "```json\n{\"toxic_words\": [\"бляд\"]}\n```"
+      "{\"toxic_words\": [\"бляд\"]}"
     ],
     "1":[
       "refusal",
@@ -886,7 +886,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": []}"
+      "```json\n{\n  \"toxic_words\": []\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1056,7 +1056,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кутак\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"кутак\", \"тошэр\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1090,75 +1090,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"корт\", \"кутак\"]}"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
-      "{\"toxic_words\": []}"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
-      "{\"toxic_words\": [\"кутак\"]}"
+      "```json\n{\n  \"toxic_words\": [\"корт\", \"кутак\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1226,7 +1158,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"Хз\", \"Фаршка\", \"затам\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"кем\", \"ечми\", \"кутак\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1260,7 +1192,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутенэ\", \"кончать\", \"итерге\"]}"
+      "{\"toxic_words\": [\"күт\"]}"
     ],
     "1":[
       "refusal",
@@ -1294,7 +1226,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"Чумый\"]\n}\n```"
+      "{\"toxic_words\": [\"Хз\", \"Фаршка\", \"затам\"]}"
     ],
     "1":[
       "refusal",
@@ -1328,7 +1260,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кубрек\"]}"
+      "```json\n{\n  \"toxic_words\": [\"кончать\", \"итерге\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1362,7 +1294,75 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутакбашка\"]}"
+      "{\"toxic_words\": [\"Чумый\"]}"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "```json\n{\n  \"toxic_words\": [\"кубрек\"]\n}\n```"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "```json\n{\n  \"toxic_words\": [\"күтәкбашка\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1430,7 +1430,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутакбаш\"]}"
+      "```json\n{\n  \"toxic_words\": [\"кутакбаш\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1464,7 +1464,143 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"мужик тугел\"]\n}\n```"
+      "{\"toxic_words\": [\"мужик тугел\"]}"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "{\"toxic_words\": [\"блят\"]}"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "{\"toxic_words\": [\"блят\"]}"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "```json\n{\n  \"toxic_words\": [\"Фәхишәләр\", \"ятмас\"]\n}\n```"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "```json\n{\n  \"toxic_words\": [\"Хз\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1566,7 +1702,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"ятмас\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": []\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1600,143 +1736,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"Хз\", \"кайсыгызнын\"]}"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
-      "```json\n{\n  \"toxic_words\": [\"блят\"]\n}\n```"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
-      "{\"toxic_words\": [\"блят\"]}"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
-      "{\"toxic_words\": []}"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
-      "```json\n{\n  \"toxic_words\": [\"сегешеп\"]\n}\n```"
+      "{\"toxic_words\": [\"сегешеп\"]}"
     ],
     "1":[
       "refusal",
@@ -1838,7 +1838,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутакбашка\"]}"
+      "```json\n{\n  \"toxic_words\": [\"кутакбашка\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1872,7 +1872,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"сука\"]}"
+      "```json\n{\n  \"toxic_words\": [\"сука\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -1906,7 +1906,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кончать\"]\n}\n```"
+      "{\"toxic_words\": [\"Эйбет\", \"кончать\"]}"
     ],
     "1":[
       "refusal",
@@ -2110,7 +2110,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"блятлэрнен\"]}"
+      "```json\n{\n  \"toxic_words\": [\"блятлэрнен\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2314,7 +2314,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"Чыпчык\", \"кутак\"]}"
+      "```json\n{\n  \"toxic_words\": [\"Чыпчык\", \"кутак\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2348,7 +2348,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"сука\"]}"
+      "```json\n{\n  \"toxic_words\": [\"сука\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2416,7 +2416,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутак\", \"кутак\"]}"
+      "```json\n{\n  \"toxic_words\": [\"кутак\", \"кутак\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2484,7 +2484,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кисеп\", \"ат\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"кисеп\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2518,7 +2518,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"пиздис\"]}"
+      "```json\n{\n  \"toxic_words\": [\"пиздис\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2586,7 +2586,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"Дебил\", \"дыр\"]}"
+      "{\"toxic_words\": [\"Дебил\", \"дыр\", \"сука\"]}"
     ],
     "1":[
       "refusal",
@@ -2654,7 +2654,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кызу суккан\", \"аңсыз\", \"сегүчеләр\"]}"
+      "{\"toxic_words\": []}"
     ],
     "1":[
       "refusal",
@@ -2790,7 +2790,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"жизнихуй\", \"драчить\"]}"
+      "```json\n{\n  \"toxic_words\": [\"жизнихуй\", \"драчить\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -2858,7 +2858,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"Чупре\"]\n}\n```"
+      "{\"toxic_words\": [\"Чупре\", \"секс\", \"мекс\"]}"
     ],
     "1":[
       "refusal",
@@ -2892,7 +2892,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кэжэ\"]\n}\n```"
+      "{\"toxic_words\": []}"
     ],
     "1":[
       "refusal",
@@ -2960,7 +2960,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кукэй\"]\n}\n```"
+      "{\"toxic_words\": [\"кукэй\"]}"
     ],
     "1":[
       "refusal",
@@ -2994,7 +2994,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"е#лан\"]}"
+      "```json\n{\n  \"toxic_words\": [\"е#лан\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3062,7 +3062,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"сука\"]}"
+      "```json\n{\n  \"toxic_words\": [\"сука\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3096,7 +3096,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"чукып\"]\n}\n```"
+      "{\"toxic_words\": [\"чукып ала\"]}"
     ],
     "1":[
       "refusal",
@@ -3130,7 +3130,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"Эйе\", \"хуя\", \"хрящ\"]\n}\n```"
+      "{\"toxic_words\": [\"Эйе\", \"хрящ\"]}"
     ],
     "1":[
       "refusal",
@@ -3164,7 +3164,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутакбашлар\"]}"
+      "```json\n{\n  \"toxic_words\": [\"кутакбашлар\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3198,7 +3198,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": []}"
+      "```json\n{\n  \"toxic_words\": []\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3232,7 +3232,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"Блэт\", \"берук\", \"сукалар\"]\n}\n```"
+      "{\"toxic_words\": [\"Блэт\", \"сукалар\"]}"
     ],
     "1":[
       "refusal",
@@ -3266,7 +3266,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"алкаш\"]}"
+      "```json\n{\n  \"toxic_words\": [\"алкаш\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3334,7 +3334,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"кутак\", \"авыз\"]}"
+      "{\"toxic_words\": [\"кутак\", \"авыз\", \"инде\"]}"
     ],
     "1":[
       "refusal",
@@ -3402,7 +3402,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"Ертылганчы\"]\n}\n```"
+      "{\"toxic_words\": [\"Ертылганчы\"]}"
     ],
     "1":[
       "refusal",
@@ -3436,7 +3436,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"сасык\", \"нэгалэт\", \"берук\"]\n}\n```"
+      "{\"toxic_words\": [\"сасык\", \"нэгалэт\", \"берук\"]}"
     ],
     "1":[
       "refusal",
@@ -3538,7 +3538,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"бэйлэрлек\", \"ээ\"]\n}\n```"
+      "{\"toxic_words\": []}"
     ],
     "1":[
       "refusal",
@@ -3640,7 +3640,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"усырык\", \"мудак\"]}"
+      "{\"toxic_words\": [\"усырык\"]}"
     ],
     "1":[
       "refusal",
@@ -3674,7 +3674,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"нэфселэре\", \"басылмый\", \"газыйм\"]}"
+      "```json\n{\n  \"toxic_words\": [\"биллэхии\", \"газыйм\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3708,7 +3708,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"тычты\", \"улчэп\", \"кутак\"]}"
+      "{\"toxic_words\": [\"тычты\", \"улчэп\", \"карады\"]}"
     ],
     "1":[
       "refusal",
@@ -3742,7 +3742,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"бөке\"]}"
+      "```json\n{\n  \"toxic_words\": [\"бөке\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -3844,7 +3844,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"туалетка\"]\n}\n```"
+      "{\"toxic_words\": [\"туалетка\"]}"
     ],
     "1":[
       "refusal",
@@ -3980,7 +3980,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"жыен жен\"]\n}\n```"
+      "{\"toxic_words\": [\"жыен\", \"жен\", \"секкэн\"]}"
     ],
     "1":[
       "refusal",
@@ -4048,7 +4048,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"пашол\", \"нахуй\"]}"
+      "{\"toxic_words\": [\"пашол\", \"нахуй\", \"куттакбаш\"]}"
     ],
     "1":[
       "refusal",
@@ -4150,7 +4150,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кутакбаш\", \"кутак\"]\n}\n```"
+      "{\"toxic_words\": [\"кутакбаш\", \"кутак\"]}"
     ],
     "1":[
       "refusal",
@@ -4184,7 +4184,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"кутак\", \"сырлап\"]\n}\n```"
+      "{\"toxic_words\": []}"
     ],
     "1":[
       "refusal",
@@ -4218,7 +4218,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"хуй\"]\n}\n```"
+      "{\"toxic_words\": [\"хуй\"]}"
     ],
     "1":[
       "refusal",
@@ -4354,7 +4354,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"пиздабол\"]\n}\n```"
+      "{\"toxic_words\": [\"сиеп\"]}"
     ],
     "1":[
       "refusal",
@@ -4388,7 +4388,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"минet\"]\n}\n```"
+      "{\"toxic_words\": [\"минet\"]}"
     ],
     "1":[
       "refusal",
@@ -4456,7 +4456,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"бләт\"]}"
+      "{\"toxic_words\": [\"норкаман\", \"бләт\"]}"
     ],
     "1":[
       "refusal",
@@ -4524,7 +4524,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"ир ат\", \"секкэн\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"ир\", \"ат\", \"секкэн\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -4626,40 +4626,6 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"пиздеть\"]\n}\n```"
-    ],
-    "1":[
-      "refusal",
-      null
-    ],
-    "2":[
-      "role",
-      "assistant"
-    ],
-    "3":[
-      "annotations",
-      null
-    ],
-    "4":[
-      "audio",
-      null
-    ],
-    "5":[
-      "function_call",
-      null
-    ],
-    "6":[
-      "tool_calls",
-      null
-    ],
-    "7":[
-      "reasoning",
-      null
-    ]
-  },
-  {
-    "0":[
-      "content",
       "{\"toxic_words\": []}"
     ],
     "1":[
@@ -4694,7 +4660,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"тишеге\", \"ялый\", \"иснәмичә\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"иснэрлэр\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -4728,7 +4694,41 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"фашист\", \"паразит\", \"гитлернын калдыгы\"]\n}\n```"
+      "```json\n{\n  \"toxic_words\": [\"иснәмичә\", \"генә\", \"кабтырырлар\"]\n}\n```"
+    ],
+    "1":[
+      "refusal",
+      null
+    ],
+    "2":[
+      "role",
+      "assistant"
+    ],
+    "3":[
+      "annotations",
+      null
+    ],
+    "4":[
+      "audio",
+      null
+    ],
+    "5":[
+      "function_call",
+      null
+    ],
+    "6":[
+      "tool_calls",
+      null
+    ],
+    "7":[
+      "reasoning",
+      null
+    ]
+  },
+  {
+    "0":[
+      "content",
+      "```json\n{\n  \"toxic_words\": [\"фашист\", \"паразит\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -4898,7 +4898,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": []\n}\n```"
+      "{\"toxic_words\": []}"
     ],
     "1":[
       "refusal",
@@ -4932,7 +4932,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"Батак\"]}"
+      "```json\n{\n  \"toxic_words\": [\"Батак\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -5000,7 +5000,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"мать\"]}"
+      "```json\n{\n  \"toxic_words\": [\"мать\"]\n}\n```"
     ],
     "1":[
       "refusal",
@@ -5034,7 +5034,7 @@
   {
     "0":[
       "content",
-      "```json\n{\n  \"toxic_words\": [\"похуй\"]\n}\n```"
+      "{\"toxic_words\": [\"похуй\"]}"
     ],
     "1":[
       "refusal",
@@ -5068,7 +5068,7 @@
   {
     "0":[
       "content",
-      "{\"toxic_words\": [\"тормош\", \"секмэсен\"]}"
+      "```json\n{\n  \"toxic_words\": [\"тормош\"]\n}\n```"
     ],
     "1":[
       "refusal",
