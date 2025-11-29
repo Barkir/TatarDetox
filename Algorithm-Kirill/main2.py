@@ -12,11 +12,11 @@ TATAR_PATH = "Texts/dev_inputs.tsv"
 RUSSIAN_PATH = "Texts/dev_inputs_translated.tsv"
 
 with open(TATAR_PATH, encoding="utf-8") as f:
-    tatar_lines = [line.strip().replace("\t", " ") for line in f if line.strip()][300:450]
+    tatar_lines = [line.strip().replace("\t", " ") for line in f if line.strip()][450:]
     print(tatar_lines)
 
 with open(RUSSIAN_PATH, encoding="utf-8") as f:
-    russian_lines = [line.strip() for line in f if line.strip()][300:450]
+    russian_lines = [line.strip() for line in f if line.strip()][450:]
 
 api_key = os.getenv("OPEN_ROUTER_API_KEY")
 if not api_key:
@@ -73,7 +73,7 @@ async def main():
     df = pd.DataFrame(results)
 
     # Сохраняем в файл (можно .csv, но JSON сохраняет структуру ответа лучше)
-    output_file = "detox_results.json"
+    output_file = "detox_results2.json"
     df.to_json(output_file, orient="records", indent=2, force_ascii=False)
     print(f"\nРезультаты сохранены в {output_file}")
 
