@@ -3,7 +3,7 @@ import csv
 from similar_text import similar_text
 
 TSV_ORIGINAL = "dev_inputs.tsv"
-TOXIC_WORDS = "output_results_1.json"
+TOXIC_WORDS = "output_results_2.json"
 OUTPUT = "output.tsv"
 
 
@@ -19,7 +19,7 @@ with open(TOXIC_WORDS, "r", encoding="utf-8") as file:
     data = json.load(file)
 
 
-msg = detoxify_message(" ".join(data[15]["0"][1:]))
+msg = detoxify_message(" ".join(data[14]["0"][1:]))
 
 
 
