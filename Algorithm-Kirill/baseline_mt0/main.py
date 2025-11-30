@@ -43,8 +43,7 @@ class MT0Detoxifier:
     """
 
     LANGUAGES = Literal[
-        "ru",
-        "tt",
+        "de",
     ]
 
     def __init__(self, model_name: str = "s-nlp/mt0-xl-detox-orpo"):
@@ -60,7 +59,6 @@ class MT0Detoxifier:
 
         self.lang_prompts = {
             "ru": "Детоксифицируй: ",
-            "tt": "Токсиннарны чыгару: ",
         }
 
     def _prepare_batch(self, batch_texts: List[str]) -> Dict[str, torch.Tensor]:

@@ -58,7 +58,7 @@ async def detoxify_sentence(mat_slice):
     prompt = build_prompt(mat_slice)
     print(prompt)
     response = client.chat.completions.create(
-        model="google/gemini-2.5-flash-preview-09-2025",
+        model="openai/gpt-4o-2024-11-20",
         messages=[
             {
                 "role": "user",
