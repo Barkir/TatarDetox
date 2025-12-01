@@ -53,7 +53,7 @@ class MT0Detoxifier:
         Args:
             model_name (str): Name or path of the pretrained model to load.
         """
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cpu")
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(self.device)
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -75,16 +75,14 @@ class MT0Detoxifier:
         """Generate detoxified text for a batch of inputs."""
         with torch.no_grad():
             outputs = self.model.generate(
-                **encodings,
-                max_length=128,
-                num_beams=10,
-                no_repeat_ngram_size=3,
-                repetition_penalty=1.2,
-                num_beam_groups=5,
-                diversity_penalty=2.5,
-                num_return_sequences=1,
-                early_stopping=True,
-            )
+                        **encodings,
+                        max_length=128,
+                        num_beams=5,
+                        no_repeat_ngram_size=3,
+                        repetition_penalty=1.2,
+                        num_return_sequences=1,
+                        early_stopping=True,
+                    )
         return self.tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
     def detoxify_batch(

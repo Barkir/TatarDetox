@@ -1,0 +1,50 @@
+
+--- ERROR IN BATCH 20 ATTEMPT 1 ---
+Expecting ',' delimiter: line 1 column 281 (char 280)
+RAW:
+[{"string_number": 20, "translated_text": "Кâbıр түшем"}, 
+{"string_number": 21, "translated_text": "мәнъелләр һәм моллалар басып алуның сере түгел"}, 
+{"string_number": 22, "translated_text": "мин синең төркемеңне файдалысыз яки берсең, мин синең өйеңә килепprinting берегем!'}, 
+{"string_number": 23, "translated_text": "алар гына ултырып елап торырга мөмкин түгел...берse бергә кычкырырга!'}, 
+{"string_number": 24, "translated_text": "эй, ни өчен комментарийны бетердең? мин килепprinting берегем!'}, 
+{"string_number": 25, "translated_text": "кызлар! кияүгә чыгу турында уйлама, чын! без чиста татар кызын һәрва курыйк?..."}, 
+{"string_number": 26, "translated_text": "матур рәсемне урнаштырыгыз, һәм аны алыгыз!'}, 
+{"string_number": 27, "translated_text": "һәм син дә бер авыр!"}, 
+{"string_number": 28, "translated_text": "мин сөйләшүне яратамын."}, 
+{"string_number": 29, "translated_text": "йа, берниһәй яхшы, шунда кит! миңа борчыма, син_OBJCpector! минем аңламыйм!'}, 
+{"string_number": 30, "translated_text": "Актанышта бер дә нормаль кыз калмады! минең дуслым:- син һәркем белән биичәсен!'}, 
+{"string_number": 31, "translated_text": "баласын тәлке кылган һәм ата-анасының өйен баласына биргән кешедән яхшысы юк!'}, 
+{"string_number": 32, "translated_text": "акылсызлар, дустлар!!!!! синең берсенең кулыңны колагыңа кертсәң, син башка кеше булып китмәсең!'}, 
+{"string_number": 33, "translated_text": "рус телендә язу һәм татарча язу бер үк вакытта язучы кызлар!"}, 
+{"string_number": 34, "translated_text": "ул AvtoVAZ заводында эшләде, машиналарны ясаучыларның куллары яралар һәм чире белән капланган иде!"}, 
+{"string_number": 35, "translated_text": "син безнең символың! үз йөзеңә карагыз!"}, 
+{"string_number": 36, "translated_text": "бу арча!!! нәрсә бу?"}, 
+{"string_number": 37, "translated_text": "син хайван кебек ашарга тиешсең һәм син кирле булсан да, син чистарthyлырга тиешсең!'}, 
+{"string_number": 38, "translated_text": "татарча яз һәм наив булма!"}, 
+{"string_number": 39, "translated_text": "китеп күңел ачыгыз!) һәм ул күңелле!"}]
+
+--- ERROR IN BATCH 20 ATTEMPT 2 ---
+Expecting ',' delimiter: line 1 column 583 (char 582)
+RAW:
+[
+{"string_number": 20, "translated_text": "Куык"},
+{"string_number": 21, "translated_text": "pNet престоЫ һәм муллалар басымга алу"},
+{"string_number": 22, "translated_text": "äyte ä데이 Sao бе_SINGLE Ard с Сảo.useless яки биг löл, мин синеڭ өйеңә килеп тибәрмен"},
+{"string_number": 23, "translated_text": "алар гына ултырып ялварырга символны кисл"},
+{"string_number": 24, "translated_text": "Хәй, ни өчен ш-performance comment с Detector виләвең? мин киләм дә тибәрмен"},
+{"string_number": 25, "translated_text": "Кызылар! кияүгә чыгу турында уйлама, чын! без pure татар кызыларын ]),
+{"string_number": 26, "translated_text": "матур рәсемне qu өстеңдәгене алып ташла"},
+{"string_number": 27, "translated_text": "һәм син дә ябышмасың"},
+{"string_number": 28, "translated_text": "мин сөйләшүне яратмыйм"},
+{"string_number": 29, "translated_text": "ярам Kop ш Und соң, шунда кит! миңа шулай сөйләшергә теләк юк"},
+{"string_number": 30, "translated_text": "Актанышта бер дә нормаль кыз калмаған! минең дусларым әйтә: -син барың белән бальный"},
+{"string_number": 31, "translated_text": "баланың өченOUNTRY ташлаучы кеше һичкемнән яхшырак түгел"},
+{"string_number": 32, "translated_text": "мәзәкле дуслар!!!! s comparative аңарга тыŋlahoma кылып йөрмәгез әлбәттә"},
+{"string_number": 33, "translated_text": "русча һәм татарча бер vaqtta язучы кызлар"},
+{"string_number": 34, "translated_text": "автоваз заводында эшләгән, машина йığучыларның кулына дөрт тирә"},
+{"string_number": 35, "translated_text": "синең безнең символым! үз йөзеңә карагыз"},
+{"string_number": 36, "translated_text": "арчада ни бу"},
+{"string_number": 37, "translated_text": "хайванча ашарга һәм ялгышсан да чистартырга"},
+{"string_number": 38, "translated_text": "татарча яз даLoader наив булма"},
+{"string_number": 39, "translated_text": "китеп җәйнә йөрүbe һәм чын "
+]

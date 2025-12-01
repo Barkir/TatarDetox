@@ -16,13 +16,8 @@ def detoxify_message(msg: str) -> str:
 with open(JSON1, "r", encoding="utf-8") as file:
     data = json.load(file)
 
-<<<<<<< HEAD
 msg = detoxify_message(" ".join(data[3]["0"][1:]))
 
-
-
-=======
->>>>>>> 641d1ab6efa4829a137a7f3f0f8562b0c5f43750
 modified_rows = []
 for i in range(len(data)):
     msg = detoxify_message(" ".join(data[i]["0"][1:]))

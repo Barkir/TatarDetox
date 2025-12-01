@@ -1,26 +1,18 @@
+#!/usr/bin/env python3
 import sys
-from googletrans import Translator
-import time
+from deep_translator import GoogleTranslator
 
-def main():
-    translator = Translator()
+translator = GoogleTranslator(source='auto', target='ru')
 
-    for line in sys.stdin:
-        line = line.strip()
+for line in sys.stdin:
+    text = line.strip()
+    if not text:
+        print("")
+        continue
 
-        # Пустые строки выводим как есть
-        if not line:
-            print("")
-            continue
+    try:
+        translated = translator.translate(text)
+    except Exception as e:
+        translated = f"[ERROR: {e}]"
 
-        # Переводим строку (с защитой от падений)
-        try:
-            result = translator.translate(line, dest="ru")
-            print(result.text)
-        except Exception as e:
-            print(f"[ERROR] Не удалось перевести строку: {line}", file=sys.stderr)
-            print("")
-            time.sleep(0.5)
-
-if __name__ == "__main__":
-    main()
+    print(translated)
